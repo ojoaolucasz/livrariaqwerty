@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./images/icones/favicon.png" type="image/x-icon">
+
+    <title>Loja Qwerty</title>
+  </head>
+  <body>
+    <header>       
+        <a href="./index.html"><img src="./Images/icones/logo.png" alt="" id="imagemum"></a>
+        <h1>Livraria Qwerty</h1>
+        <a href="" id="signin" data-toggle="modal" data-target="#modalcadastro">Register</a>
+          <a href="" id="login"  data-toggle="modal" data-target="#modallogin">Login</a>
+        <img src="./Images/icones/usericon.png" alt="" id="imagemdois">
+    </header>
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide posterloja" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="./Images/posterloja.png" alt="Primeiro Slide">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tituloloja">
+      <h3>Loja</h3>
+    </div>
+    <div class="container">
+        <div class="row" id="cardsloja">
+            <div class="col-lg-4">
+                <div class="card" style="width: 23rem;">
+                    <img class="card-img-top" src="./Images/boxdes.png" alt="Imagem de capa do card">
+                    <div class="card-body">
+                      <h5 class="card-title">Desventuras Em Série</h5>
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalum">Mais Detalhes</button>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card" style="width: 23rem;">
+                    <img class="card-img-top" src="./Images/jogosvorazes.png" alt="Imagem de capa do card">
+                    <div class="card-body">
+                      <h5 class="card-title">Jogos Vorazes</h5>
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modaldois">Mais Detalhes</button>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card" style="width: 23rem;">
+                    <img class="card-img-top" src="./Images/pj.png" alt="Imagem de capa do card">
+                    <div class="card-body">
+                      <h5 class="card-title" id="pj">Percy Jackson e Os Olimpianos</h5>
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modaltres">Mais Detalhes</button>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+      <div class="row" id="cardsloja">
+        <div class="col-lg-4">
+            <div class="card" style="width: 23rem;">
+                <img class="card-img-top" src="./Images/atwq.png" alt="Imagem de capa do card">
+                <div class="card-body">
+                  <h5 class="card-title">Só Perguntas Erradas</h5>
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalquatro">Mais Detalhes</button>
+                </div>
+              </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card" style="width: 23rem;">
+                <img class="card-img-top" src="./Images/ueev.png" alt="Imagem de capa do card">
+                <div class="card-body">
+                  <h5 class="card-title" id="sh">Sherlock Holmes- Um Estudo Em Vermelho</h5>
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalcinco">Mais Detalhes</button>
+                </div>
+              </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card" style="width: 23rem;">
+                <img class="card-img-top" src="./Images/acdn.png" alt="Imagem de capa do card">
+                <div class="card-body">
+                  <h5 class="card-title" id="pj">As Cronicas De Nárnia</h5>
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalseis">Mais Detalhes</button>
+                </div>
+              </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="modal fade" id="modalum" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Desventuras Em Série</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                    <b>Título Original:</b><p>A Series Of Unfortunate Events</p>
+                    <b>Autor:</b><p>Lemony Snicket</p>
+                    <b>Data De Lançamento:</b><p>1999-2006</p>
+                    <b>Sinopse:</b>      
+                <p>
+                    Após perderem os pais em um incêndio suspeito, os três irmãos 
+                    Baudelaire são perseguidos por um vilão que está interessado em
+                    sua fortuna. Ao Longo dos 13 livros, os irmãos vão passando de
+                    tutor para tutor e descobrindo segredos obscuros dos quais seus pais estavam
+                    envolvidos.
+                </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+              <a href="https://www.amazon.com.br/Desventuras-Em-S%C3%A9rie-Caixa-livros/dp/8535919724/ref=sr_1_1?keywords=desventuras+em+s%C3%A9rie+box&qid=1662420268&sprefix=desventura%2Caps%2C250&sr=8-1&ufe=app_do%3Aamzn1.fos.4bddec23-2dcf-4403-8597-e1a02442043d" target="_blank"><button type="button" class="btn btn-primary">Comprar</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="modaldois" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Jogos Vorazes</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                    <b>Título Original:</b><p>The Hunger Games</p>
+                    <b>Autor:</b><p>Suzanne Collins</p>
+                    <b>Data De Lançamento:</b><p>2008-2010</p>
+                    <b>Sinopse:</b>      
+                <p>
+                    Todo ano, em Panem, ocorre os jogos vorazes, um campeonato que um casal de cada
+                    um dos 12 distritos se enfrentam até a morte, sobrando apenas um jogador. Katniss e Peeta, os protagonistas, 
+                    junto com vários cidadãos, decidem se rebelar e acabar com os jogos definitivamente.
+                </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+              <a href="https://www.amazon.com.br/Box-Comemorativo-Jogos-Vorazes-Ed/dp/6556670146/ref=sr_1_2?keywords=jogos+vorazes+box&qid=1662420989&sprefix=jogos+vorazes+%2Caps%2C232&sr=8-2&ufe=app_do%3Aamzn1.fos.db68964d-7c0e-4bb2-a95c-e5cb9e32eb12" target="_blank"><button type="button" class="btn btn-primary">Comprar</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="modaltres" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Percy Jackson e Os Olimpianos</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                    <b>Título Original:</b><p>Percy Jackson & The Olympians</p>
+                    <b>Autor:</b><p>Rick Riordan</p>
+                    <b>Data De Lançamento:</b><p>2005-2009</p>
+                    <b>Sinopse:</b>      
+                <p>
+                    Quando Percy Jackson descobre ser um semideus, ele e seu grupo de amigos são mandado à 
+                    diversas missões para salvar o acampamento meio-sangue e impedir que o titã Cronos 
+                    renasça e se levante contra os deuses do olimpo.
+                </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+              <a href="https://www.amazon.com.br/Box-Percy-Jackson-os-Olimpianos/dp/8580574625/ref=sr_1_1?keywords=percy+jackson&qid=1662421935&sprefix=perc%2Caps%2C448&sr=8-1&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678" target="_blank"><button type="button" class="btn btn-primary">Comprar</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="modalquatro" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Só Perguntas Erradas.</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                    <b>Título Original:</b><p>All The Wrong Questions</p>
+                    <b>Autor:</b><p>Lemony Snicket</p>
+                    <b>Data De Lançamento:</b><p>2012-2015</p>
+                    <b>Sinopse:</b>      
+                <p>
+                    Após seu período como aprendiz de sua organização secreta, o jovem Snicket é levado
+                    à Manchado-Pelo-Mar, uma cidade quase deserta com um vilão atrás de uma estátua 
+                    sem valor, uma garota suspeita, um homem desaparecido e uma grande fera mitológica. 
+                    Ao longo de sua estadia na cidade, Snicket faz 4 perguntas erradas, cada livro representa uma
+                    delas.
+                </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+              <a href="https://www.amazon.com.br/All-Wrong-Questions-Complete-Paperback/dp/0316271004/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1662422282&sr=8-1" target="_blank"><button type="button" class="btn btn-primary">Comprar</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+   
+      <div class="modal fade" id="modalcinco" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Sherlock Holmes- Um Estudo Em Vermelho</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                    <b>Título Original:</b><p>Sherlock Holmes- A Study In Scarlet</p>
+                    <b>Autor:</b><p>Arthur Conan Doyle</p>
+                    <b>Data De Lançamento:</b><p>1887</p>
+                    <b>Sinopse:</b>      
+                <p>
+                   Um homem é encontrado morto, sem ferimentos mas cercado por sangue com uma expressão de
+                   pavor em seu rosto. O caso é um enigma indecifrável para a polícia, então Sherlock Holmes e
+                   doutor Watson são chamados para resolve-lo.
+                </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+              <a href="https://www.amazon.com.br/Sherlock-Holmes-Um-Estudo-Vermelho/dp/8581862969" target="_blank"><button type="button" class="btn btn-primary">Comprar</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="modalseis" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Sherlock Holmes- Um Estudo Em Vermelho</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                    <b>Título Original:</b><p>The Chronicles of Narnia</p>
+                    <b>Autor:</b><p>C. S. Lewis</p>
+                    <b>Data De Lançamento:</b><p>1950-1956</p>
+                    <b>Sinopse:</b>      
+                <p>
+                    A série conta a história dos irmão Pevensie, que, após salvarem o reino de Nárnia da 
+                    Jadis, a feiticeira branca, se tornam reis e governam até o fim do reino.
+                </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+              <a href="https://www.amazon.com.br/As-Cr%C3%B4nicas-N%C3%A1rnia-Brochura-Lewis/dp/857827069X/ref=sr_1_1?keywords=cronicas+de+narnia&qid=1662424231&sprefix=cronicas%2Caps%2C258&sr=8-1&ufe=app_do%3Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74" target="_blank"><button type="button" class="btn btn-primary">Comprar</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <h2>All rights reserved</h2>
+      </footer>
+
+      <div class="modal fade" id="modalcadastro" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Cadastre-se</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <input type="text" name="" id="" placeholder="Nome Completo" style="width: 100%; margin-bottom: 5px;">
+                <input type="email" name="" id="" placeholder="Digite Seu Email!" style="width: 100%; margin-bottom: 5px;">
+                <input type="password" name="" id="" placeholder="Digite Sua Senha" style="width: 100%; margin-bottom: 5px;">
+                <input type="checkbox" name="" id=""> Aceito os termos de uso
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="modallogin" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <input type="email" name="" id="" placeholder="Digite Seu Email!" style="width: 100%; margin-bottom: 5px;">
+                <input type="password" name="" id="" placeholder="Digite Sua Senha" style="width: 100%; margin-bottom: 5px;">
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+        <!-- JavaScript (Opcional) -->
+        <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+      </body>
+    </html>

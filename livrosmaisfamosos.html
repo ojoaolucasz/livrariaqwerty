@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./images/icones/favicon.png" type="image/x-icon">
+
+    <title>Livraria Qwerty</title>
+  </head>
+  <body>
+      <header>       
+          <a href="./index.html"><img src="./Images/icones/logo.png" alt="" id="imagemum"></a>
+          <h1>Livraria Qwerty</h1>
+          <a href="" id="signin" data-toggle="modal" data-target="#modalcadastro">Register</a>
+          <a href="" id="login"  data-toggle="modal" data-target="#modallogin">Login</a>
+          <img src="./Images/icones/usericon.png" alt="" id="imagemdois">
+      </header>
+      <nav>
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="./loja.html">Loja</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./endereco.html">Endereço</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contato.html">Contato</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="./Images/carrosseldois.png" alt="Primeiro Slide">
+          </div>
+        </div>
+      </div>
+
+      <div class="titulomaisvendidos">
+        <h3>Os 12 Livros Mais Vendidos No Mundo</h3>
+      </div>
+
+      <div class="container">
+        <div class="card" style="width: 28rem;" id="cardlivrosvendidos">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><b>1.</b><a href="https://www.amazon.com.br/Harry-Potter-Pedra-Filosofal-Rowling/dp/8532530788" target="_blank"> Harry Potter e a Pedra Filosofal (J.K. Rowling)</a></li>
+              <li class="list-group-item"><b>2.</b>.<a href="https://www.amazon.com.br/Dom-Quixote-Letra-Miguel-Cervantes/dp/8595200858/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1662650933&sr=1-4" target="_blank"> Dom Quixote (Miguel de Cervantes)</a></li>
+              <li class="list-group-item"><b>3.</b><a href="https://www.amazon.com.br/Conde-Monte-Cristo-Alexandre-Dumas/dp/8544001513/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3FRSZVZP5PZSL&keywords=O+Conde+de+Monte+Cristo+%28Alexandre+Dumas%29&qid=1662651022&s=books&sprefix=%2Cstripbooks%2C280&sr=1-1&ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9" target="_blank"> O Conde de Monte Cristo (Alexandre Dumas)</a></li>
+              <li class="list-group-item"><b>4.</b><a href="https://www.amazon.com.br/conto-duas-cidades-Charles-Dickens/dp/6556403105/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=15OUJTS02UX0C&keywords=Um+Conto+de+Duas+Cidades+%28Charles+Dickens%29&qid=1662651082&s=books&sprefix=um+conto+de+duas+cidades+charles+dickens+%2Cstripbooks%2C238&sr=1-1" target="_blank"> Um Conto de Duas Cidades (Charles Dickens)</a></li>
+              <li class="list-group-item"><b>5.</b><a href="https://www.amazon.com.br/pequeno-pr%C3%ADncipe-capa-almofadada/dp/854280595X/ref=sr_1_3?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1ZYX5OH4PKANL&keywords=O+Pequeno+Pr%C3%ADncipe+%28Antoine+de+Saint-Exup%C3%A9ry%29&qid=1662651203&s=books&sprefix=o+pequeno+pr%C3%ADncipe+antoine+de+saint-exup%C3%A9ry+%2Cstripbooks%2C261&sr=1-3" target="_blank"> O Pequeno Príncipe (Antoine de Saint-Exupéry)</a></li>
+              <li class="list-group-item"><b>6.</b><a href="https://www.amazon.com.br/Senhor-dos-An%C3%A9is-%C3%9Anico-Poder/dp/655511424X/ref=sr_1_2?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2HS57PFD9EYRA&keywords=O+Senhor+dos+An%C3%A9is+%28J.R.R.+Tolkien%29&qid=1662651261&s=books&sprefix=o+senhor+dos+an%C3%A9is+j.r.r.+tolkien+%2Cstripbooks%2C247&sr=1-2&ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9" target="_blank"> O Senhor dos Anéis (J.R.R. Tolkien)</a></li>
+              <li class="list-group-item"><b>7.</b><a href="https://www.amazon.com.br/As-cr%C3%B4nicas-N%C3%A1rnia-feiticeira-guarda-roupa/dp/8578270886/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1QRUHNJ6SXPF&keywords=O+Le%C3%A3o%2C+a+Feiticeira+e+o+Guarda-Roupa+%28C.S.+Lewis%29&qid=1662651316&s=books&sprefix=o+le%C3%A3o+a+feiticeira+e+o+guarda-roupa+c.s.+lewis+%2Cstripbooks%2C255&sr=1-1" target="_blank"> O Leão, a Feiticeira e o Guarda-Roupa (C.S. Lewis)</a></li>
+              <li class="list-group-item"><b>8.</b><a href="https://www.amazon.com.br/Harry-Potter-Enigma-do-Pr%C3%ADncipe/dp/8532530834/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1662651392&sr=1-1" target="_blank"> Harry Potter e o Enigma do Príncipe (J.K. Rowling)</a></li>
+              <li class="list-group-item"><b>9.</b><a href="https://www.amazon.com.br/n%C3%A3o-sobrou-nenhum-Agatha-Christie/dp/8525057010/ref=sr_1_1?crid=2P3GF1SFVUANL&keywords=e+nao+sobrou+nenhum&qid=1662651510&s=books&sprefix=e+nao+s%2Cstripbooks%2C258&sr=1-1" target="_blank"> E Não Sobrou Nenhum (Agatha Christie)</a></li>
+              <li class="list-group-item"><b>10.</b><a href="https://www.amazon.com.br/Cinquenta-Tons-Cinza-L-James/dp/8580572185/ref=sr_1_6?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=FERYBGFZ9ZI9&keywords=Cinquenta+Tons+de+Cinza+%28E.+L.+James%29&qid=1662651572&s=books&sprefix=cinquenta+tons+de+cinza+e.+l.+james+%2Cstripbooks%2C273&sr=1-6" target="_blank"> Cinquenta Tons de Cinza (E. L. James)</a></li>
+              <li class="list-group-item"><b>11.</b><a href="https://www.amazon.com.br/Dream-Chamber-Tuttle-Classics-English-ebook/dp/B007OVTD8I/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=356GW7XCIKKVJ&keywords=O+Sonho+da+C%C3%A2mara+Vermelha+%28Cao+Xueqin%29&qid=1662651660&s=books&sprefix=o+sonho+da+c%C3%A2mara+vermelha+cao+xueqin+%2Cstripbooks%2C267&sr=1-1&ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9" target="_blank"> O Sonho da Câmara Vermelha (Cao Xueqin)</a></li>
+              <li class="list-group-item"><b>12.</b><a href="https://www.amazon.com.br/ELA-Feiticeira-H-Ridder-Haggart-ebook/dp/B08JMB11HV/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3THHLS1RK91A2&keywords=Ela%2C+a+Feiticeira+%28Henry+Rider+Haggard%29&qid=1662651753&s=books&sprefix=ela+a+feiticeira+henry+rider+haggard+%2Cstripbooks%2C248&sr=1-1" target="_blank"> Ela, a Feiticeira (Henry Rider Haggard)</a></li>
+            </ul>
+          </div>
+      </div>
+      
+
+      <footer>
+        <h2>All rights reserved</h2>
+      </footer>
+        <!-- JavaScript (Opcional) -->
+        <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+      </body>
+    </html>
